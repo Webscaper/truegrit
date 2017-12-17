@@ -86,6 +86,9 @@ position: relative;
     font-weight:bolder;
 }
 
+.centermargin {
+  margin: 0 auto;
+}
 
 @media only screen and (max-width:991px) {
   .jumbotron .container {
@@ -96,7 +99,7 @@ position: relative;
   }
   .jumbotron {
     height: 300px;
-    padding-top: 110px;
+    padding-top: 150px;
   }
 
 @media only screen and (max-width:767px) {
@@ -107,6 +110,10 @@ position: relative;
   }
 
   .nav-tabs>li>a {
-      padding: 10px 15px;
+      padding: 8px 10px;
+      font-size: 0.8rem;
+    }
+    .logo {
+      display: none;
     }
   }
