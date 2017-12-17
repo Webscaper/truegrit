@@ -6,52 +6,96 @@
     <!--<link href="resources\bootstrap\css\bootstrap.min.css" rel="stylesheet" />-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="resources\css\style.css" type="text/css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:700" rel="stylesheet">
     <title>true grit</title>
   </head>
   <body>
+    <!-- Navigation Bar -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
+        <!-- Navigation Header -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <!-- Nested hamburger menu button -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynav" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">true grit</a>
+          <!-- Navigation Header Text -->
+          <a class="navbar-brand truegrit" href="#">true grit</a>
+        </div>
+        <!-- Collapsing Navbar code -->
+        <div class="collapse navbar-collapse" id="mynav">
+          <!-- Navigation List -->
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Learn PvP</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!-- Main jumbotron  -->
     <div class="jumbotron">
-      <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-      </div>
+      <div class="container margin">
+        <span class="truegrit">true grit</span></br>
+        <button type="button" class="btn btn-danger">Join today</button>
     </div>
+  </div>
 
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-xs-9">
+          <!-- Media top -->
+          <div class="media">
+            <div class="media-left media-top">
+              <img src="resources/images/Riven.jpg" class="media-object img-rounded" style="width:125px">
+            </div>
+            <div class="media-body well well-sm">
+              <h4 class="media-heading">Welcome capsuleer!</h4>
+              <p>Lorem ipsum...</p>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-xs-3">
+          <img class="img-responsive" src="resources\images\truegrit.png">
        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
       </div>
 
+      <div class="row">
+        <div class="col-xs-9">
+
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item active">
+              <a class="nav-link" id="mission-tab" data-toggle="tab" href="#mission" role="tab" aria-controls="mission" aria-selected="true">Mission</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="rules-tab" data-toggle="tab" href="#rules" role="tab" aria-controls="rules" aria-selected="false">Rules</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
+            </li>
+          </ul>
+
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane in fade active" id="mission" role="tabpanel" aria-labelledby="mission-tab"><h1>Mission</h1> <p>data ojusgoij opijdgpijdg ipgjpdjg pojmgdpoj gp odjgpoj</p></div>
+            <div class="tab-pane fade" id="rules" role="tabpanel" aria-labelledby="rules-tab"><h1>Rules</h1> <p>ljkndsg okidng doign jdoig jd ogijgd oijdgoi djgoidjoidgjdoigjgoij doigdo ijgodi joigd odg</p></div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"><h1>Contact</h1> <p>data ojusgoij opijdgpijdg ipgjpdjg pojmgdpoj gp odjgpoj</p></div>
+          </div>
+        </div>
+
+        <div class="col-xs-3">
+
+        </div>
+      </div>
+</br>
+</br>
+</br>
+</br>
       <hr>
 
       <footer>
@@ -63,6 +107,6 @@
     <!--<script src="resources\bootstrap\js\bootstrap.min.js"></script>
     <script src="resources\jQuery\jquery-3.2.1.slim.js"></script>-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="resources/bootstrap/bootstrap.js"></script>
   </body>
 </html>

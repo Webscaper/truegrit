@@ -1,25 +1,112 @@
 html {
-
+  font-size: 16px;
 }
 
+body {
+  background-color: black;
+}
 
+a {
+  color: rgba(168, 168, 168, 1);
+}
 
+h1, h2, h3, h4 {
+  color: rgba(168, 168, 168, 1);
+}
 
-
-
-
-
-
-
+p {
+  color: rgba(168, 168, 168, 1);
+}
 
 .navbar {
-  
+position: relative;
+margin: auto;
+}
+
+.btn {
+  padding: 12px, 24px;
+  font-size: 1.5rem;
+}
+
+.truegrit {
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+
+.jumbotron .truegrit {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+}
+
+.truegrit:hover {
+  color: #660000;
 }
 
 .jumbotron {
-
+background: url("../images/jumbotron.jpg");
+background-position: top;
+background-repeat:no-repeat;
+background-color: black;
+background-size: contain;
+position: relative;
 }
 
-.container {
-
+.well {
+  background-color: rgba(168, 168, 168, 0.14);
+  border: 0px;
+  color: white;
 }
+
+.margin {
+  margin-top: 200px;
+}
+
+.btn-danger {
+  background-color: #660000;
+  border-color: #000;
+}
+
+.nav-tabs {
+  margin-top: 15px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  color: white;
+  cursor: default;
+  background-color: rgba(168, 168, 168, 0.14);
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+
+.nav-tabs>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 40px;
+    font-size: 1.1rem;
+    font-weight:bolder;
+}
+
+
+@media only screen and (max-width:991px) {
+  .jumbotron .container {
+    margin: auto;
+  }
+  .jumbotron .truegrit {
+    font-size: 2rem;
+  }
+  .jumbotron {
+    height: 300px;
+    padding-top: 110px;
+  }
+
+@media only screen and (max-width:767px) {
+  .jumbotron {
+    height: 300px;
+    padding-top: 110px;
+    margin-bottom: -30px;
+  }
+
+  .nav-tabs>li>a {
+      padding: 10px 15px;
+    }
+  }
