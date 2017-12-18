@@ -28,7 +28,7 @@ nav li a, .tab-pane li, p {
 }
 
 .navbar {
-position: relative;
+position: absolute;
 margin: auto;
 }
 
