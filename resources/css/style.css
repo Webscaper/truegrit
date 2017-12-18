@@ -6,16 +6,25 @@ body {
   background-color: black;
 }
 
-a {
-  color: rgba(168, 168, 168, 1);
-}
-
 h1, h2, h3, h4 {
   color: rgba(168, 168, 168, 1);
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 1px;
 }
 
-p {
+p, ul li, a {
   color: rgba(168, 168, 168, 1);
+  letter-spacing: 1px;
+  font-size:
+}
+
+nav li a, .tab-pane li, p {
+  font-family: 'Russo One', sans-serif;
+}
+
+.nav-link {
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 1px;
 }
 
 .navbar {
@@ -90,6 +99,28 @@ position: relative;
   margin: 0 auto;
 }
 
+.float-right {
+  float: right;
+  max-width: 300px;
+  height: auto;
+}
+
+footer h5 {
+  font-family: 'Russo One', sans-serif;
+  color: rgba(168, 168, 168, 1);
+  letter-spacing: 1px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.clear-right {
+  clear: right;
+}
+
 @media only screen and (max-width:991px) {
   .jumbotron .container {
     margin: auto;
@@ -111,9 +142,9 @@ position: relative;
 
   .nav-tabs>li>a {
       padding: 8px 10px;
-      font-size: 0.8rem;
+      font-size: 1rem;
     }
-    .logo {
+    .hideimg {
       display: none;
     }
   }
