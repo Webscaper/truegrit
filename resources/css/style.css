@@ -22,6 +22,19 @@ nav li a, .tab-pane li, p {
   font-family: 'Russo One', sans-serif;
 }
 
+i {
+  color: rgba(168, 168, 168, 0.7);
+  font-family: 'Kanit', sans-serif;
+}
+
+.line-fade {
+  margin: 25px 0;
+  height: 2px;
+  border: 0;
+  background: #660000;
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(black), to(black), color-stop(50%, #660000));
+}
+
 .nav-link {
   font-family: 'Kanit', sans-serif;
   letter-spacing: 1px;
@@ -66,10 +79,6 @@ position: relative;
   color: white;
 }
 
-.margin {
-  margin-top: 200px;
-}
-
 .btn-danger {
   background-color: #660000;
   border-color: #000;
@@ -81,10 +90,7 @@ position: relative;
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
   color: white;
-  cursor: default;
   background-color: rgba(168, 168, 168, 0.14);
-  border: 1px solid #ddd;
-  border-bottom-color: transparent;
 }
 
 .nav-tabs>li>a {
@@ -95,14 +101,40 @@ position: relative;
     font-weight:bolder;
 }
 
+.margin {
+  margin-top: 200px;
+}
+
 .centermargin {
   margin: 0 auto;
 }
 
+.float-left {
+  float: left;
+}
+
 .float-right {
   float: right;
+}
+
+.max-width {
   max-width: 300px;
   height: auto;
+}
+
+#eve {
+  margin-top: 40px;
+}
+
+#Mission, #rules, #contact {
+  min-height: 150px;
+}
+
+.list-group-item {
+  background-color: rgba(168, 168, 168, 0.14);
+  color: rgba(168, 168, 168, 1);
+  font-family: 'Kanit', sans-serif;
+  letter-spacing: 1px;
 }
 
 footer h5 {
@@ -119,6 +151,10 @@ footer ul {
 
 .clear-right {
   clear: right;
+}
+
+.clear-all {
+  clear: both;
 }
 
 @media only screen and (max-width:991px) {
@@ -146,5 +182,9 @@ footer ul {
     }
     .hideimg {
       display: none;
+    }
+
+    .float-left {
+      float: none;
     }
   }
