@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--<link href="resources\bootstrap\css\bootstrap.min.css" rel="stylesheet" />-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/b7f8b17984.js"></script>
     <link href="resources\css\style.css" type="text/css" rel="stylesheet" />
@@ -42,16 +41,22 @@
     <!-- Main jumbotron  -->
     <div class="jumbotron">
       <div class="container margin">
-        <span class="truegrit">true grit</span></br>
-        <a href="join.html"><button type="button" class="btn btn-danger block">Join today</button></a>
+        <span class="truegrit desktop">true grit</span></br>
+        <a href="join.html"><button type="button" class="btn btn-danger block desktop">Join today</button></a>
+        <div class="row mobile">
+          <div class="col-xs-6">
+            <span class="truegrit">true grit</span>
+          </div>
+          <div class="col-xs-6">
+            <a href="join.html"><button type="button" class="btn btn-danger block float-right">Join today</button></a>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
   <div class="container">
     <div class="row">
-    </div>
-    <div class="row">
       <div class="col-sm-3">
-        <a href="http://www.eveonline.com" target="_blank"><img class="img-responsive hideimg max-width float-right" id="eve" src="resources/images/eveonline.png" href="www.eveonline.com"></a>
+        <a href="http://www.eveonline.com" target="_blank"><img class="img-responsive hideimg float-right" id="eve" src="resources/images/eveonline.png" href="www.eveonline.com"></a>
       </div>
       <div class="col-sm-6 text-center">
         <h1 id="red">Masochistic</h1>
@@ -90,7 +95,6 @@
             <li>No Blobs</li>
           </ul>
         </div>
-        </br>
         <div class="well">
           <h4>True grit will provide</h4>
           <ul style="list-style-type: none">
