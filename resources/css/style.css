@@ -35,10 +35,11 @@ nav li a, .tab-pane li, p {
 .small-p {
   font-family: arial;
   color: grey;
+  font-size: 0.8rem;
 }
 
-.text-detail {
-
+.add-padding {
+  padding-bottom: 15px;
 }
 
 .line-fade {
@@ -134,6 +135,15 @@ position: relative;
 .max-width {
   max-width: 300px;
   height: auto;
+}
+
+.max-width2 {
+  max-width: 400px;
+  height: auto;
+}
+
+.max-width3 {
+  max-width: 800px;
 }
 
 #eve {
